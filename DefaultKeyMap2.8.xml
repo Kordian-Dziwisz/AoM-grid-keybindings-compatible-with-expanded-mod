@@ -1,0 +1,1704 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<defaultkeymap>
+    <keymapgroup name="Game" displayname="$$60001$$Game">
+        <keymapdata>
+            <name>Render Friend or Foe</name>
+            <displayname>$$60008$$Render Friend or Foe</displayname>
+            <event></event>
+            <context>world</context>
+            <command>renderFriendOrFoe</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Toggle Camera Rotation</name>
+            <displayname>$$60009$$Toggle Camera Rotation</displayname>
+            <event></event>
+            <context>world</context>
+            <command>uiResetWheelRotate()</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Reset Camera Rotation</name>
+            <displayname>$$49304$$Reset Camera Rotation</displayname>
+            <event></event>
+            <context>world</context>
+            <command>uiResetWheelRotate()</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Flare</name>
+            <displayname>$$22513$$Flare Minimap</displayname>
+            <event></event>
+            <context>world</context>
+            <command>uiResetWheelRotate()</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Toggle Strategic Map</name>
+            <displayname>$$60012$$Toggle Strategic Map</displayname>
+            <event></event>
+            <context>world</context>
+            <command>strategicMap</command>
+        </keymapdata>
+    </keymapgroup>
+    <keymapgroup name="Observer Mode" displayname="$$49310$$Observer Mode">
+        <keymapdata>
+            <name>Switch to Tab 1 (Resources)</name>
+            <displayname>$$49311$$Switch to Tab 1 (Resources)</displayname>
+            <event></event>
+            <context>observer</context>
+            <command>uiToggleObserverMode(0)</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Switch to Tab 2 (Production)</name>
+            <displayname>$$49312$$Switch to Tab 2 (Production)</displayname>
+            <event></event>
+            <context>observer</context>
+            <command>uiToggleObserverMode(1)</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Switch to Tab 3 (Losses)</name>
+            <displayname>$$49313$$Switch to Tab 3 (Losses)</displayname>
+            <event></event>
+            <context>observer</context>
+            <command>uiToggleObserverMode(2)</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Switch to Tab 4 (Kills)</name>
+            <displayname>$$49314$$Switch to Tab 4 (Kills)</displayname>
+            <event></event>
+            <context>observer</context>
+            <command>uiToggleObserverMode(3)</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Switch to Tab 5 (Units)</name>
+            <displayname>$$49315$$Switch to Tab 5 (Units)</displayname>
+            <event></event>
+            <context>observer</context>
+            <command>uiToggleObserverMode(4)</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Switch to Tab 6 (Buildings)</name>
+            <displayname>$$49316$$Switch to Tab 6 (Buildings)</displayname>
+            <event></event>
+            <context>observer</context>
+            <command>uiToggleObserverMode(5)</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Switch to Tab 7 (Observer Mode)</name>
+            <displayname>$$49317$$Switch to Tab 7 (Observer Mode)</displayname>
+            <event></event>
+            <context>observer</context>
+            <command>uiToggleObserverMode(6)</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Switch Perspective to Player 1</name>
+            <displayname>$$49331$$Switch Perspective to Player 1</displayname>
+            <event></event>
+            <context>observer</context>
+            <command>uiChangeObserverPerspective(1)</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Switch Perspective to Player 2</name>
+            <displayname>$$49332$$Switch Perspective to Player 2</displayname>
+            <event></event>
+            <context>observer</context>
+            <command>uiChangeObserverPerspective(2)</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Switch Perspective to Player 3</name>
+            <displayname>$$49333$$Switch Perspective to Player 3</displayname>
+            <event></event>
+            <context>observer</context>
+            <command>uiChangeObserverPerspective(3)</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Switch Perspective to Player 4</name>
+            <displayname>$$49334$$Switch Perspective to Player 4</displayname>
+            <event></event>
+            <context>observer</context>
+            <command>uiChangeObserverPerspective(4)</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Switch Perspective to Player 5</name>
+            <displayname>$$49335$$Switch Perspective to Player 5</displayname>
+            <event></event>
+            <context>observer</context>
+            <command>uiChangeObserverPerspective(5)</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Switch Perspective to Player 6</name>
+            <displayname>$$49336$$Switch Perspective to Player 6</displayname>
+            <event></event>
+            <context>observer</context>
+            <command>uiChangeObserverPerspective(6)</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Switch Perspective to Player 7</name>
+            <displayname>$$49337$$Switch Perspective to Player 7</displayname>
+            <event></event>
+            <context>observer</context>
+            <command>uiChangeObserverPerspective(7)</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Switch Perspective to Player 8</name>
+            <displayname>$$49338$$Switch Perspective to Player 8</displayname>
+            <event></event>
+            <context>observer</context>
+            <command>uiChangeObserverPerspective(8)</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Switch Perspective to Player 9</name>
+            <displayname>$$49339$$Switch Perspective to Player 9</displayname>
+            <event></event>
+            <context>observer</context>
+            <command>uiChangeObserverPerspective(9)</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Switch Perspective to Player 10</name>
+            <displayname>$$49340$$Switch Perspective to Player 10</displayname>
+            <event></event>
+            <context>observer</context>
+            <command>uiChangeObserverPerspective(10)</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Switch Perspective to Player 11</name>
+            <displayname>$$49341$$Switch Perspective to Player 11</displayname>
+            <event></event>
+            <context>observer</context>
+            <command>uiChangeObserverPerspective(11)</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Reset Perspective</name>
+            <displayname>$$49330$$Reset Perspective</displayname>
+            <event></event>
+            <context>observer</context>
+            <command>uiChangeObserverPerspective(-1)</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Toggle Chat</name>
+            <displayname>$$49302$$Toggle Chat</displayname>
+            <event></event>
+            <context>observer</context>
+            <command>uiToggleChat()</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Toggle Fog of War</name>
+            <displayname>$$49303$$Toggle Fog of War</displayname>
+            <event></event>
+            <context>observer</context>
+            <command>uiToggleObserverFOW()</command>
+        </keymapdata>
+    </keymapgroup>
+    <keymapgroup name="Selection Divider" displayname="$$60000$$Divider"></keymapgroup>
+    <keymapgroup name="Selection" displayname="$$21552$$Selection">
+        <keymapdata>
+            <name>Select Group 1</name>
+            <displayname>$$20805$$Select Group 1</displayname>
+            <event>1</event>
+            <context>game</context>
+            <command>uiSelectNumberGroup(1)</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Select Group 2</name>
+            <displayname>$$20806$$Select Group 2</displayname>
+            <event>2</event>
+            <context>game</context>
+            <command>uiSelectNumberGroup(2)</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Select Group 3</name>
+            <displayname>$$20807$$Select Group 3</displayname>
+            <event>3</event>
+            <context>game</context>
+            <command>uiSelectNumberGroup(3)</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Select Group 4</name>
+            <displayname>$$20808$$Select Group 4</displayname>
+            <event>4</event>
+            <context>game</context>
+            <command>uiSelectNumberGroup(4)</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Select Group 5</name>
+            <displayname>$$20809$$Select Group 5</displayname>
+            <event>5</event>
+            <context>game</context>
+            <command>uiSelectNumberGroup(5)</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Select Group 6</name>
+            <displayname>$$20810$$Select Group 6</displayname>
+            <event>6</event>
+            <context>game</context>
+            <command>uiSelectNumberGroup(6)</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Select Group 7</name>
+            <displayname>$$20811$$Select Group 7</displayname>
+            <event>7</event>
+            <context>game</context>
+            <command>uiSelectNumberGroup(7)</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Select Group 8</name>
+            <displayname>$$20812$$Select Group 8</displayname>
+            <event>8</event>
+            <context>game</context>
+            <command>uiSelectNumberGroup(8)</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Select Group 9</name>
+            <displayname>$$20813$$Select Group 9</displayname>
+            <event>9</event>
+            <context>game</context>
+            <command>uiSelectNumberGroup(9)</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Add to Group 1</name>
+            <displayname>$$20814$$Add to Group 1</displayname>
+            <event>shift-1</event>
+            <context>game</context>
+            <command>uiAddSelectNumberGroup(1)</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Add to Group 2</name>
+            <displayname>$$20815$$Add to Group 2</displayname>
+            <event>shift-2</event>
+            <context>game</context>
+            <command>uiAddSelectNumberGroup(2)</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Add to Group 3</name>
+            <displayname>$$20816$$Add to Group 3</displayname>
+            <event>shift-3</event>
+            <context>game</context>
+            <command>uiAddSelectNumberGroup(3)</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Add to Group 4</name>
+            <displayname>$$20817$$Add to Group 4</displayname>
+            <event>shift-4</event>
+            <context>game</context>
+            <command>uiAddSelectNumberGroup(4)</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Add to Group 5</name>
+            <displayname>$$20818$$Add to Group 5</displayname>
+            <event>shift-5</event>
+            <context>game</context>
+            <command>uiAddSelectNumberGroup(5)</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Add to Group 6</name>
+            <displayname>$$20819$$Add to Group 6</displayname>
+            <event>shift-6</event>
+            <context>game</context>
+            <command>uiAddSelectNumberGroup(6)</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Add to Group 7</name>
+            <displayname>$$20820$$Add to Group 7</displayname>
+            <event>shift-7</event>
+            <context>game</context>
+            <command>uiAddSelectNumberGroup(7)</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Add to Group 8</name>
+            <displayname>$$20821$$Add to Group 8</displayname>
+            <event>shift-8</event>
+            <context>game</context>
+            <command>uiAddSelectNumberGroup(8)</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Add to Group 9</name>
+            <displayname>$$20822$$Add to Group 9</displayname>
+            <event>shift-9</event>
+            <context>game</context>
+            <command>uiAddSelectNumberGroup(9)</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Create Group 1</name>
+            <displayname>$$20823$$Create Group 1</displayname>
+            <event>alt-1</event>
+            <context>game</context>
+            <command>uiCreateNumberGroup(1)</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Create Group 2</name>
+            <displayname>$$20824$$Create Group 2</displayname>
+            <event>alt-2</event>
+            <context>game</context>
+            <command>uiCreateNumberGroup(2)</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Create Group 3</name>
+            <displayname>$$20825$$Create Group 3</displayname>
+            <event>alt-3</event>
+            <context>game</context>
+            <command>uiCreateNumberGroup(3)</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Create Group 4</name>
+            <displayname>$$20826$$Create Group 4</displayname>
+            <event>alt-4</event>
+            <context>game</context>
+            <command>uiCreateNumberGroup(4)</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Create Group 5</name>
+            <displayname>$$20827$$Create Group 5</displayname>
+            <event>alt-5</event>
+            <context>game</context>
+            <command>uiCreateNumberGroup(5)</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Create Group 6</name>
+            <displayname>$$20828$$Create Group 6</displayname>
+            <event>alt-6</event>
+            <context>game</context>
+            <command>uiCreateNumberGroup(6)</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Create Group 7</name>
+            <displayname>$$20829$$Create Group 7</displayname>
+            <event>alt-7</event>
+            <context>game</context>
+            <command>uiCreateNumberGroup(7)</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Create Group 8</name>
+            <displayname>$$20830$$Create Group 8</displayname>
+            <event>alt-8</event>
+            <context>game</context>
+            <command>uiCreateNumberGroup(8)</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Create Group 9</name>
+            <displayname>$$20831$$Create Group 9</displayname>
+            <event>alt-9</event>
+            <context>game</context>
+            <command>uiCreateNumberGroup(9)</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Remove From Any Group</name>
+            <displayname>$$20832$$Remove From Any Group</displayname>
+            <event>alt-`</event>
+            <context>game</context>
+            <command>uiRemoveFromAnyNumberGroup</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Look At Group 1</name>
+            <displayname>$$20833$$Look At Group 1</displayname>
+            <event></event>
+            <context>game</context>
+            <command>uiSelectNumberGroup(1) uiLookAtNumberGroup(1)</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Look At Group 2</name>
+            <displayname>$$20834$$Look At Group 2</displayname>
+            <event></event>
+            <context>game</context>
+            <command>uiSelectNumberGroup(2) uiLookAtNumberGroup(2)</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Look At Group 3</name>
+            <displayname>$$20835$$Look At Group 3</displayname>
+            <event></event>
+            <context>game</context>
+            <command>uiSelectNumberGroup(3) uiLookAtNumberGroup(3)</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Look At Group 4</name>
+            <displayname>$$20836$$Look At Group 4</displayname>
+            <event></event>
+            <context>game</context>
+            <command>uiSelectNumberGroup(4) uiLookAtNumberGroup(4)</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Look At Group 5</name>
+            <displayname>$$20837$$Look At Group 5</displayname>
+            <event></event>
+            <context>game</context>
+            <command>uiSelectNumberGroup(5) uiLookAtNumberGroup(5)</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Look At Group 6</name>
+            <displayname>$$20838$$Look At Group 6</displayname>
+            <event></event>
+            <context>game</context>
+            <command>uiSelectNumberGroup(6) uiLookAtNumberGroup(6)</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Look At Group 7</name>
+            <displayname>$$20839$$Look At Group 7</displayname>
+            <event></event>
+            <context>game</context>
+            <command>uiSelectNumberGroup(7) uiLookAtNumberGroup(7)</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Look At Group 8</name>
+            <displayname>$$20840$$Look At Group 8</displayname>
+            <event></event>
+            <context>game</context>
+            <command>uiSelectNumberGroup(8) uiLookAtNumberGroup(8)</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Look At Group 9</name>
+            <displayname>$$20841$$Look At Group 9</displayname>
+            <event></event>
+            <context>game</context>
+            <command>uiSelectNumberGroup(9) uiLookAtNumberGroup(9)</command>
+        </keymapdata>
+    </keymapgroup>
+    <keymapgroup name="Unit Stances And Formations"
+        displayname="$$22329$$Unit Stances And Formations">
+        <keymapdata>
+            <name>Eject Garrisoned Units</name>
+            <displayname>$$22223$$Eject Garrisoned Units</displayname>
+            <event>alt-f</event>
+            <context>game</context>
+            <command>uiEjectGarrisonedUnits()</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Attack Move</name>
+            <displayname>$$60003$$Attack Move</displayname>
+            <event>mouse5down</event>
+            <context>MilitaryUnitAccel</context>
+            <command>editMode("attackMove")</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Guard</name>
+            <displayname>$$60004$$Guard</displayname>
+            <event>alt-mouse5down</event>
+            <context>MilitaryUnitAccel</context>
+            <command>editMode("guard")</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Patrol</name>
+            <displayname>$$60005$$Patrol</displayname>
+            <event>shift-mouse5down</event>
+            <context>MilitaryUnitAccel</context>
+            <command>editMode("patrol")</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Empower</name>
+            <displayname>$$23284$$Empower</displayname>
+            <event />
+            <context>MilitaryUnitAccel</context>
+            <command>editMode("empower")</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Garrison</name>
+            <displayname>$$60017$$Garrison</displayname>
+            <event></event>
+            <context>MilitaryUnitAccel</context>
+            <command>editMode("garrison")</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Stop</name>
+            <displayname>$$60006$$Stop</displayname>
+            <event></event>
+            <context>MilitaryUnitAccel</context>
+            <command>uiStopSelectedUnits</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Delete</name>
+            <displayname>$$60018$$Delete</displayname>
+            <event>delete</event>
+            <context>game</context>
+            <command>uiDeleteSelectedUnit(1) uiDeleteSelectedUnit(0)</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Delete Secondary</name>
+            <displayname>$$60018$$Delete Secondary</displayname>
+            <event>numpadperiod</event>
+            <context>game</context>
+            <command>uiDeleteSelectedUnit(1) uiDeleteSelectedUnit(0)</command>
+            <allowmultiplebindings>1</allowmultiplebindings>
+        </keymapdata>
+        <keymapdata>
+            <name>Set Stance Aggressive</name>
+            <displayname>$$22330$$Set Stance Aggressive</displayname>
+            <event></event>
+            <context>game</context>
+            <command>unitSetStanceAggressive()</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Set Stance Defensive</name>
+            <displayname>$$22331$$Set Stance Defensive</displayname>
+            <event></event>
+            <context>game</context>
+            <command>unitSetStanceDefensive()</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Set Stance Passive</name>
+            <displayname>$$22332$$Set Stance Passive</displayname>
+            <event></event>
+            <context>game</context>
+            <command>unitSetStancePassive()</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Set Default Formation</name>
+            <displayname>$$22333$$Set Default Formation</displayname>
+            <event></event>
+            <context>MilitaryUnitAccel</context>
+            <command>unitSetFormationDefault()</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Set Box Formation</name>
+            <displayname>$$22334$$Set Box Formation</displayname>
+            <event></event>
+            <context>MilitaryUnitAccel</context>
+            <command>unitSetFormationBox()</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Set Mixed Formation</name>
+            <displayname>$$22335$$Set Mixed Formation</displayname>
+            <event></event>
+            <context>MilitaryUnitAccel</context>
+            <command>unitSetFormationMixed()</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Set Spread Formation</name>
+            <displayname>$$22336$$Set Spread Formation</displayname>
+            <event></event>
+            <context>MilitaryUnitAccel</context>
+            <command>unitSetFormationSpread()</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Toggle Combat Commands</name>
+            <displayname>$$60010$$Toggle Combat Commands</displayname>
+            <event></event>
+            <context>MilitaryUnitAccel</context>
+            <command>uiToggleCombatCommands</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Toggle Autoqueue</name>
+            <displayname>$$60011$$Toggle Autoqueue</displayname>
+            <event>mouse5down</event>
+            <context>game</context>
+            <command>uiToggleBuildingQueue()</command>
+        </keymapdata>
+    </keymapgroup>
+    <keymapgroup name="Find Divider" displayname="$$60000$$Divider"></keymapgroup>
+    <keymapgroup name="Find Keys" displayname="$$20866$$Find Keys">
+        <keymapdata>
+            <name>Find Hero</name>
+            <displayname>$$20842$$Find Hero</displayname>
+            <event>alt-tab</event>
+            <context>game</context>
+            <command>uiFindType("Hero")</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Find Idle Villager</name>
+            <displayname>$$20843$$Find Idle Villager</displayname>
+            <event>tab</event>
+            <context>game</context>
+            <command>uiFindIdleType("LogicalTypeIdleCivilian")</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Find Idle Military</name>
+            <displayname>$$20844$$Find Idle Military</displayname>
+            <event></event>
+            <context>game</context>
+            <command>uiFindIdleType("LogicalTypeIdleMilitary")</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Find Scout</name>
+            <displayname>$$20845$$Find Scout</displayname>
+            <event>shift-tab</event>
+            <context>game</context>
+            <command>uiFindIdleType("AbstractScout")</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Find Selection</name>
+            <displayname>$$20847$$Find Selection</displayname>
+            <event></event>
+            <context>game</context>
+            <command>uiLookAtSelection</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Find Town Center</name>
+            <displayname>$$20846$$Find Town Center</displayname>
+            <event>shift-q</event>
+            <context>game</context>
+            <command>uiFindType("settlementsThatTrainVillagers")</command>
+            <allowmultiplebindings>1</allowmultiplebindings>
+        </keymapdata>
+        <keymapdata>
+            <name>Find Early Food Drop Site, Guild, Longhouse, or Garden</name>
+            <displayname>$$20853$$Find Early Food Drop Site, Guild, or Garden</displayname>
+            <event>shift-e</event>
+            <context>game</context>
+            <command>uiFindType("EarlyFoodDropsite") uiFindType("Guild") uiFindType("Garden") uiFindType("Hero Building Norse")</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Find Early Gold Drop Site</name>
+            <displayname>$$20855$$Find Early Gold Drop Site</displayname>
+            <event>shift-r</event>
+            <context>game</context>
+            <command>uiFindType("EarlyGoldDropsite") uiFindType("Hero Building Norse")</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Find Farm</name>
+            <displayname>$$20852$$Find Farm</displayname>
+            <event></event>
+            <context>game</context>
+            <command>uiFindType("Farm")</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Find Science Building</name>
+            <displayname>Find Science Building</displayname>
+            <event>shift-alt-f</event>
+            <context>game</context>
+            <command>uiFindType("University") uiFindType("Tingholl")</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Find Dock</name>
+            <displayname>$$20851$$Find Dock</displayname>
+            <event>shift-alt-d</event>
+            <context>game</context>
+            <command>uiFindType("Dock")</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Find Barracks</name>
+            <displayname>$$20849$$Find Barracks</displayname>
+            <event>shift-s</event>
+            <context>game</context>
+            <command>uiFindType("AbstractBarracks")</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Find Archery Range</name>
+            <displayname>$$20848$$Find Archery Range</displayname>
+            <event>shift-d</event>
+            <context>game</context>
+            <command>uiFindType("AbstractArcheryRange")</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Find Stable</name>
+            <displayname>$$20860$$Find Stable or Counter Barracks</displayname>
+            <event>shift-f</event>
+            <context>game</context>
+            <command>uiFindType("AbstractStable")</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Find Siege Works</name>
+            <displayname>$$20850$$Find Siege Works</displayname>
+            <event>shift-alt-a</event>
+            <context>game</context>
+            <command>uiFindType("Siege Camp Greek") uiFindType("Siege Camp") uiFindType("Siege Camp Norse") uiFindType("Siege Camp X") uiFindType("Siege Camp Chinese")</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Find Elite Barracks</name>
+            <displayname>Find Elite Barracks</displayname>
+            <event>shift-alt-s</event>
+            <context>game</context>
+            <command>uiFindType("Greek Barracks") uiFindType("Ptolemaic Barracks") uiFindType("ThaneBuilding") uiFindType("")</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Find Hero Building</name>
+            <displayname>Find Hero Building</displayname>
+            <event>shift-alt-g</event>
+            <context>game</context>
+            <command>uiFindType("Palaestra") uiFindType("Sahnetjar") uiFindType("Hero Building Norse")</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Find Fortress</name>
+            <displayname>$$20863$$Find Fortress</displayname>
+            <event>shift-alt-f</event>
+            <context>game</context>
+            <command>uiFindType("AbstractFortress")</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Find Mirror Tower</name>
+            <displayname>$$23860$$Find Mirror Tower</displayname>
+            <event></event>
+            <context>game</context>
+            <command>uiFindType("Tower Mirror")</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Find Wonder</name>
+            <displayname>$$20854$$Find Wonder</displayname>
+            <event></event>
+            <context>game</context>
+            <command>uiFindType("Wonder")</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Find Early Wood Drop Site</name>
+            <displayname>$$20856$$Find Early Wood Drop Site</displayname>
+            <event>shift-alt-r</event>
+            <context>game</context>
+            <command>uiFindType("EarlyWoodDropsite")</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Find Outpost</name>
+            <displayname>$$20857$$Find Outpost</displayname>
+            <event></event>
+            <context>game</context>
+            <command>uiFindType("Outpost")</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Find Tower</name>
+            <displayname>$$20858$$Find Tower</displayname>
+            <event></event>
+            <context>game</context>
+            <command>uiFindType("Tower")</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Find Armory</name>
+            <displayname>$$20859$$Find Armory</displayname>
+            <event>shift-g</event>
+            <context>game</context>
+            <command>uiFindType("AbstractArmory")</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Find Temple</name>
+            <displayname>$$20861$$Find Temple</displayname>
+            <event>shift-a</event>
+            <context>game</context>
+            <command>uiFindType("Temple")</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Find Monument or Sky Passage</name>
+            <displayname>$$20862$$Find Monument or Sky Passage</displayname>
+            <event>shift-alt-x</event>
+            <context>game</context>
+            <command>uiFindType("AbstractMonument") uiFindType("Sky Passage")</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Find Market</name>
+            <displayname>$$20864$$Find Market</displayname>
+            <event>shift-z</event>
+            <context>game</context>
+            <command>uiFindType("Market")</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Find Last Notification</name>
+            <displayname>$$22090$$Find Last Notification</displayname>
+            <event>space</event>
+            <context>game</context>
+            <command>uiZoomToMinimapEvent()</command>
+            <allowmultiplebindings>1</allowmultiplebindings>
+        </keymapdata>
+    </keymapgroup>
+    <keymapgroup name="Construction Divider" displayname="$$60000$$Divider"></keymapgroup>
+    <keymapgroup name="General Building Construction"
+        displayname="$$60144$$Shared Building Construction">
+        <keymapdata>
+            <name>Build Dock</name>
+            <displayname>$$20871$$Build Dock</displayname>
+            <event>alt-d</event>
+            <context>BuildAccel</context>
+            <command>tis("Dock")</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Build House or Manor</name>
+            <displayname>$$20872$$Build House or Manor</displayname>
+            <event>w</event>
+            <context>BuildAccel</context>
+            <command>tis("House") tis("Manor")</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Build Farm</name>
+            <displayname>$$20873$$Build Farm</displayname>
+            <event>e</event>
+            <context>BuildAccel</context>
+            <command>tis("Farm")</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Build Wonder</name>
+            <displayname>$$20875$$Build Wonder</displayname>
+            <event></event>
+            <context>BuildAccel</context>
+            <command>tis("Wonder")</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Build Tower</name>
+            <displayname>$$20880$$Build Tower</displayname>
+            <event>c</event>
+            <context>BuildAccel</context>
+            <command>tis("Tower")</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Build Tower Mirror</name>
+            <displayname>$$23121$$Build Mirror Tower</displayname>
+            <event>alt-c</event>
+            <context>BuildAccel</context>
+            <command>tis("Tower Mirror")</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Build Armory</name>
+            <displayname>$$20881$$Build Armory</displayname>
+            <event>g</event>
+            <context>BuildAccel</context>
+            <command>tis("Armory") tis("Dwarf Foundry")</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Build Temple</name>
+            <displayname>$$20884$$Build Temple</displayname>
+            <event>a</event>
+            <context>BuildAccel</context>
+            <command>tis("Temple")</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Build Fortress</name>
+            <displayname>$$20885$$Build Fortress</displayname>
+            <event>alt-f</event>
+            <context>BuildAccel</context>
+            <command>tis("Migdol Stronghold") tis("Fortress") tis("Hill Fort") tis("Palace") tis("Castle")</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Build Wall</name>
+            <displayname>$$20886$$Build Wall</displayname>
+            <event>x</event>
+            <context>BuildAccel</context>
+            <command>tis("Wall Connector")</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Build Town Center</name>
+            <displayname>$$20888$$Build Town Center</displayname>
+            <event>q</event>
+            <context>BuildAccel</context>
+            <command>tis("Settlement Level 1")</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Repair</name>
+            <displayname>$$60016$$Repair</displayname>
+            <event></event>
+            <context>BuildAccel</context>
+            <command>editMode("repair")</command>
+        </keymapdata>
+    </keymapgroup>
+    <keymapgroup name="Military Building Construction"
+        displayname="Military Building Construction">
+        <keymapdata>
+            <name>Build Barracks</name>
+            <displayname>$$20869$$Build Barracks</displayname>
+            <event>s</event>
+            <context>BuildAccel</context>
+            <command>tis("Barracks") tis("Academy") tis("Longhouse") tis("Barracks Atlantean") tis("Barracks Chinese")</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Build Archery Range</name>
+            <displayname>$$20868$$Build Archery Range</displayname>
+            <event>d</event>
+            <context>BuildAccel</context>
+            <command>tis("Archery Range") tis("Archery Egypt") tis("Archery Norse") tis("Archery Atlantis") tis("Archery Chinese")</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Build Stable</name>
+            <displayname>$$20882$$Build Stable</displayname>
+            <event>f</event>
+            <context>BuildAccel</context>
+            <command>tis("Stable") tis("Charioteria") tis("Chieftans Hut") tis("Stable Atlantis") tis("Stable Chinese")</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Build Siege Works</name>
+            <displayname>$$20870$$Build Siege Works</displayname>
+            <event>alt-a</event>
+            <context>BuildAccel</context>
+            <command>tis("Siege Camp Greek") tis("Siege Camp") tis("Siege Camp Norse") tis("Siege Camp X") tis("Siege Camp Chinese") </command>
+        </keymapdata>
+        <keymapdata>
+            <name>Build Elite Barracks</name>
+            <displayname>Build Elite Barracks</displayname>
+            <event>alt-s</event>
+            <context>BuildAccel</context>
+            <command>tis("Greek Barracks") tis("Ptolemaic Barracks") tis("ThaneBuilding")</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Build Hero Building</name>
+            <displayname>Build Hero Building</displayname>
+            <event>alt-g</event>
+            <context>BuildAccel</context>
+            <command>tis("Palaestra") tis("Sahnetjar") tis("Hero Building Norse")</command>
+        </keymapdata>
+    </keymapgroup>
+    <keymapgroup name="Economy Building Construction"
+        displayname="Economy Building Construction">
+        <keymapdata>
+            <name>Build Storehouse</name>
+            <displayname>$$60020$$Build Storehouse</displayname>
+            <event>r</event>
+            <context>BuildGreekAccel</context>
+            <command>tis("Storehouse")</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Build Granary or Longhouse</name>
+            <displayname>Build Granary or Longhouose</displayname>
+            <event>e</event>
+            <context>BuildAccel</context>
+            <command>tis("Granary") tis("Hero Building Norse")</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Build Farm</name>
+            <displayname>Build Farm</displayname>
+            <event>alt-w</event>
+            <context>BuildAccel</context>
+            <command>tis("Farm")</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Build Mining Camp</name>
+            <displayname>$$60023$$Build Mining Camp</displayname>
+            <event>r</event>
+            <context>BuildAccel</context>
+            <command>tis("mining camp")</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Build Lumber Camp or Longhouse</name>
+            <displayname>Build Lumber Camp or Longhouse</displayname>
+            <event>alt-r</event>
+            <context>BuildAccel</context>
+            <command>tis("lumber camp") tis("Hero Building Norse")</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Build Market</name>
+            <displayname>$$20887$$Build Market</displayname>
+            <event>z</event>
+            <context>BuildAccel</context>
+            <command>tis("market")</command>
+        </keymapdata>
+    </keymapgroup>
+    <keymapgroup name="Special Building Construction"
+        displayname="Special Building Construction">
+        <keymapdata>
+            <name>Build Science Building</name>
+            <displayname>Build Science Building</displayname>
+            <event>alt-q</event>
+            <context>BuildAccel</context>
+            <command>tis("university") tis("Tingholl")</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Build Tavern</name>
+            <displayname>Build Tavern</displayname>
+            <event>alt-z</event>
+            <context>game</context>
+            <command>tis("Tavern")</command>
+        </keymapdata>
+    </keymapgroup>
+    <keymapgroup name="Atlantean Building Construction"
+        displayname="$$60148$$Atlantean Building Construction">
+        <keymapdata>
+            <name>Build Counter Barracks</name>
+            <displayname>$$24277$$Build Counter Barracks</displayname>
+            <event>g</event>
+            <context>BuildAtlanteanAccel</context>
+            <command>tis("Counter Building")</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Build Guild</name>
+            <displayname>$$60027$$Build Guild</displayname>
+            <event>e</event>
+            <context>BuildAtlanteanAccel</context>
+            <command>tis("Guild")</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Build Sky Passage</name>
+            <displayname>$$60028$$Build Sky Passage</displayname>
+            <event>v</event>
+            <context>BuildAtlanteanAccel</context>
+            <command>tis("Sky Passage")</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Transform Hero</name>
+            <displayname>$$60014$$Transform Hero</displayname>
+            <event></event>
+            <context>BuildAtlanteanAccel</context>
+            <command>uiTransformSelectedUnit("Swordsman Hero") uiTransformSelectedUnit("Javelin Cavalry Hero") uiTransformSelectedUnit("Trident Soldier Hero") uiTransformSelectedUnit("Royal Guard Hero") uiTransformSelectedUnit("Lancer Hero") uiTransformSelectedUnit("Archer Atlantean Hero") uiTransformSelectedUnit("Maceman Hero") uiTransformSelectedUnit("Oracle Hero") uiTransformSelectedUnit("Villager Atlantean Hero")</command>
+        </keymapdata>
+    </keymapgroup>
+    <keymapgroup name="Chinese Building Construction"
+        displayname="$$60149$$Chinese Building Construction">
+        <keymapdata>
+            <name>Build Stable Chinese</name>
+            <displayname>$$60172$$Build Stable</displayname>
+            <event>g</event>
+            <context>BuildChineseAccel</context>
+            <command>tis("Stable Chinese")</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Build Garden</name>
+            <displayname>$$60173$$Build Garden</displayname>
+            <event>r</event>
+            <context>BuildChineseAccel</context>
+            <command>tis("Garden")</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Build Storage Pit</name>
+            <displayname>$$60024$$Build Storage Pit</displayname>
+            <event>e</event>
+            <context>BuildChineseAccel</context>
+            <command>tis("Storage Pit")</command>
+        </keymapdata>
+    </keymapgroup>
+    <keymapgroup name="Greek Unique Building Construction"
+        displayname="Greek Unique Building Construction">
+    </keymapgroup>
+    <keymapgroup name="Egyptian Unique Building Construction"
+        displayname="Egyptian Unique Building Construction">
+        <keymapdata>
+            <name>Build Outpost</name>
+            <displayname>$$20879$$Build Outpost</displayname>
+            <event>q</event>
+            <context>BuildAccel</context>
+            <command>tis("Outpost")</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Build Lighthouse</name>
+            <displayname>$$20876$$Build Lighthouse</displayname>
+            <event>b</event>
+            <context>game</context>
+            <command>tis("Lighthouse")</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Build Monument</name>
+            <displayname>$$20883$$Build Monument</displayname>
+            <event>alt-e</event>
+            <context>game</context>
+            <command>tis("Monument") tis("Monument 2") tis("Monument 3") tis("Monument 4") tis("Monument 5") tis("Monument Sphinx") tis("Pyramid S")</command>
+        </keymapdata>
+    </keymapgroup>
+    <keymapgroup name="Wall" displayname="$$40522$$Wall">
+        <keymapdata>
+            <name>Transform Gate</name>
+            <displayname>$$60015$$Transform Gate</displayname>
+            <event>q</event>
+            <context>game</context>
+            <command>uiTransformSelectedUnit("Gate")</command>
+        </keymapdata>
+    </keymapgroup>
+    <keymapgroup name="Settlement Divider" displayname="$$60000$$Divider"></keymapgroup>
+    <keymapgroup name="Settlement" displayname="$$60150$$Shared Settlement Unit Training">
+        <keymapdata>
+            <name>Villager</name>
+            <displayname>$$21445$$Villager</displayname>
+            <event>q</event>
+            <context>SettlementAccel</context>
+            <command>tis("Villager Norse") tis("Villager Egyptian") tis("Villager Greek") tis("Villager Atlantean") tis("Villager Chinese")</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Wardog</name>
+            <displayname>Wardog</displayname>
+            <event>w</event>
+            <context>game</context>
+            <command>tis("Molossus") tis("Dog")</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Ring Town Bell</name>
+            <displayname>$$22221$$Ring Town Bell</displayname>
+            <event></event>
+            <context>SettlementAccel</context>
+            <command>unitTownBell()</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Return Unit To Work</name>
+            <displayname>$$22222$$Return Unit To Work</displayname>
+            <event></event>
+            <context>SettlementAccel</context>
+            <command>unitReturnToWork()</command>
+        </keymapdata>
+    </keymapgroup>
+    <keymapgroup name="Settlement Norse" displayname="$$60153$$Norse Settlement Unit Training">
+        <keymapdata>
+            <name>Dwarf</name>
+            <displayname>$$21442$$Dwarf</displayname>
+            <event>e</event>
+            <context>SettlementAccel</context>
+            <command>tis("Dwarf")</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Ox Cart</name>
+            <displayname>$$21443$$Ox Cart</displayname>
+            <event>r</event>
+            <context>SettlementAccel</context>
+            <command>tis("Ox Cart")</command>
+        </keymapdata>
+    </keymapgroup>
+    <keymapgroup name="Market" displayname="$$21541$$Market Unit Training">
+        <keymapdata>
+            <name>Caravan</name>
+            <displayname>$$21476$$Caravan</displayname>
+            <event>alt-q</event>
+            <context>game</context>
+            <command>tis("Caravan Greek") tis("Caravan Egyptian") tis("Caravan Norse") tis("Caravan Atlantean") tis("Caravan Chinese")</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Slave</name>
+            <displayname>Slave</displayname>
+            <event>q</event>
+            <context>game</context>
+            <command>tis("Slave G") tis("Slave E") tis("Slave N") tis("Slave C")</command>
+        </keymapdata>
+    </keymapgroup>
+    <keymapgroup name="Dock Divider" displayname="$$60000$$Divider"></keymapgroup>
+    <keymapgroup name="Dock" displayname="$$60156$$Shared Dock Unit Training">
+        <keymapdata>
+            <name>Fishing Ship</name>
+            <displayname>$$21453$$Fishing Ship</displayname>
+            <event>q</event>
+            <context>game</context>
+            <command>tis("Fishing Ship Egyptian") tis("Fishing Ship Greek") tis("Fishing Ship Norse") tis("Fishing Ship Atlantean") tis("Fishing Ship Chinese")</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Transport Ship</name>
+            <displayname>$$21454$$Transport Ship</displayname>
+            <event>alt-q</event>
+            <context>game</context>
+            <command>tis("Transport Ship Norse") tis("Transport Ship Greek") tis("Transport Ship Egyptian") tis("Transport Ship Atlantean") tis("Transport Ship Chinese")</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Archer Ship</name>
+            <displayname>$$21455$$Archer Ship</displayname>
+            <event>w</event>
+            <context>game</context>
+            <command>tis("Trireme") tis("Kebenit") tis("Longboat") tis("Bireme") tis("Junk")</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Pirate Ship</name>
+            <displayname>Pirate Ship</displayname>
+            <event>alt-w</event>
+            <context>game</context>
+            <command>tis("Pirate Ship Greek") tis("Pirate Ship S") tis("Pirate Ship X") tis("Pirate Ship C")</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Ramming Ship</name>
+            <displayname>$$21456$$Hammer Ship</displayname>
+            <event>e</event>
+            <context>game</context>
+            <command>tis("Ramming Ship Greek") tis("Ramming Ship Norse") tis("Ramming Ship Egyptian") tis("Fire Ship Atlantean") tis("Fire Ship Chinese")</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Fire Ship</name>
+            <displayname>Fire Ship</displayname>
+            <event>alt-e</event>
+            <context>game</context>
+            <command>tis("Fire Ship Greek") tis("Fire Ship Norse") tis("Fire Ship Egyptian") tis("Fire Ship Atlantean") tis("Fire Ship Chinese")</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Siege Ship</name>
+            <displayname>$$21457$$Siege Ship</displayname>
+            <event>r</event>
+            <context>game</context>
+            <command>tis("Siege Ship Greek") tis("Siege Ship Norse") tis("Siege Ship Egyptian") tis("Siege Ship Atlantean") tis("Siege Ship Chinese")</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Special Ship</name>
+            <displayname>Special Ship</displayname>
+            <event>alt-r</event>
+            <context>game</context>
+            <command>tis("Catapult Trireme")</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Myth Unit 1</name>
+            <displayname>Myth Unit 1</displayname>
+            <event>t</event>
+            <context>game</context>
+            <command>tis("Scylla") tis("Leviathan") tis("Kraken") tis("Nereid") tis("War Salamander")</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Myth Unit 2</name>
+            <displayname>Myth Unit 2</displayname>
+            <event>alt-t</event>
+            <context>game</context>
+            <command>tis("Carcinos") tis("Sea Turtle") tis("Jormund Elver") tis("Man O War") tis("Black Tortoise")</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Naval Scout</name>
+            <displayname>Naval Scout</displayname>
+            <event>a</event>
+            <context>game</context>
+            <command>tis("Servant")</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Naval Hero</name>
+            <displayname>Naval Hero</displayname>
+            <event>alt-a</event>
+            <context>game</context>
+            <command>tis("Hero Greek Argo")</command>
+        </keymapdata>
+    </keymapgroup>
+    <keymapgroup name="Greek Divider" displayname="$$60000$$Divider"></keymapgroup>
+    <keymapgroup name="Barracks" displayname="Barracks">
+        <keymapdata>
+            <name>Unit 1</name>
+            <displayname>Unit 1</displayname>
+            <event>q</event>
+            <context>game</context>
+            <command>tis("Thorakitai") tis("Spearman") tis("Hero Norse")</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Unit 2</name>
+            <displayname>Unit 2</displayname>
+            <event>w</event>
+            <context>game</context>
+            <command>tis("Hoplite") tis("Shotel Warrior") tis("Throwing Axeman")</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Unit 3</name>
+            <displayname>Unit 3</displayname>
+            <event>e</event>
+            <context>game</context>
+            <command>tis("Greek Axeman") tis("Pandotapoi") tis("Bondi")</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Unit 4</name>
+            <displayname>Unit 4</displayname>
+            <event>r</event>
+            <context>game</context>
+            <command>tis("Ekdromos") tis("Axeman") tis("Ulfsark_Beta")</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Unit 5</name>
+            <displayname>Unit 5</displayname>
+            <event>t</event>
+            <context>game</context>
+            <command>tis("berserker e") tis("Ulfsark")</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Unit 6</name>
+            <displayname>Unit 6</displayname>
+            <event>alt-q</event>
+            <context>game</context>
+            <command>tis("Vaeringi")</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Unit 7</name>
+            <displayname>Unit 7</displayname>
+            <event>alt-w</event>
+            <context>game</context>
+            <command>tis("Medium Infantry")</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Unit 8</name>
+            <displayname>Unit 8</displayname>
+            <event>alt-e</event>
+            <context>game</context>
+            <command>tis("Heavy Infantry")</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Unit 9</name>
+            <displayname>Unit 9</displayname>
+            <event>alt-r</event>
+            <context>game</context>
+            <command>tis("Champion
+                Infantry")</command>
+        </keymapdata>
+    </keymapgroup>
+    <keymapgroup name="Archery Range" displayname="Archery Range">
+        <keymapdata>
+            <name>Unit 1</name>
+            <displayname>Unit 1</displayname>
+            <event>q</event>
+            <context>game</context>
+            <command>tis("Toxotes") tis("Skirmisher") tis("Archer Norse")</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Unit 2</name>
+            <displayname>Unit 2</displayname>
+            <event>w</event>
+            <context>game</context>
+            <command>tis("Sphendonetes") tis("Archer") tis("Skirmisher Norse")</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Unit 3</name>
+            <displayname>Unit 3</displayname>
+            <event>e</event>
+            <context>game</context>
+            <command>tis("Sarissophoroi") tis("Slinger") tis("Bogsveigir")</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Unit 4</name>
+            <displayname>Unit 4</displayname>
+            <event>r</event>
+            <context>game</context>
+            <command>tis("Peltast") tis("Chariot Archer") tis("Nordic Cavalry Archer")</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Unit 5</name>
+            <displayname>Unit 5</displayname>
+            <event>t</event>
+            <context>game</context>
+            <command>tis("Cretan Arcus") tis("Pharoahs Archer") tis("Headhunter")</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Unit 6</name>
+            <displayname>Unit 6</displayname>
+            <event>alt-q</event>
+            <context>game</context>
+            <command>tis("Cavalry Archer")</command>
+        </keymapdata>
+    </keymapgroup>
+    <keymapgroup name="Stable" displayname="Stable">
+        <keymapdata>
+            <name>Unit 1</name>
+            <displayname>Unit 1</displayname>
+            <event>q</event>
+            <context>game</context>
+            <command>tis("Scout G") tis("Egyptian Scout") tis("Nordic Scout")</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Unit 2</name>
+            <displayname>Unit 2</displayname>
+            <event>w</event>
+            <context>game</context>
+            <command>tis("Hippikon") tis("Axe Cavalry") tis("Raiding Cavalry")</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Unit 3</name>
+            <displayname>Unit 3</displayname>
+            <event>e</event>
+            <context>game</context>
+            <command>tis("Hoplite Cavalry") tis("Chariot") tis("Medium Cavalry")</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Unit 4</name>
+            <displayname>Unit 4</displayname>
+            <event>r</event>
+            <context>game</context>
+            <command>tis("Prodromos") tis("Camelry") tis("Village Wrecker")</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Unit 5</name>
+            <displayname>Unit 5</displayname>
+            <event>t</event>
+            <context>game</context>
+            <command>tis("Cataphract") tis("Royal Lancer") tis("Mounted Bondi")</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Unit 6</name>
+            <displayname>Unit 6</displayname>
+            <event>alt-q</event>
+            <context>game</context>
+            <command>tis("Greek Shocker") tis("Camel Cataphract") tis("Jarl")</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Unit 7</name>
+            <displayname>Unit 7</displayname>
+            <event>alt-w</event>
+            <context>game</context>
+            <command>tis("Tarkan")</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Unit 8</name>
+            <displayname>Unit 8</displayname>
+            <event>alt-e</event>
+            <context>game</context>
+            <command>tis("Heavy Cavalry")</command>
+        </keymapdata>
+    </keymapgroup>
+    <keymapgroup name="Palaestra" displayname="Palaestra Training">
+        <keymapdata>
+            <name>Age 1 Greek Hero</name>
+            <displayname>$$21490$$Age 1 Greek Hero</displayname>
+            <event>q</event>
+            <context>game</context>
+            <command>tis("Hero Greek Ajax") tis("Hero Greek Jason") tis("Hero Greek Theseus")</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Age 2 Greek Hero</name>
+            <displayname>$$21492$$Age 2 Greek Hero</displayname>
+            <event>w</event>
+            <context>game</context>
+            <command>tis("Hero Greek Odysseus") tis("Hero Greek Chiron") tis("Hero Greek Hippolyta")</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Age 3 Greek Hero</name>
+            <displayname>$$21493$$Age 3 Greek Hero</displayname>
+            <event>e</event>
+            <context>game</context>
+            <command>tis("Hero Greek Achilles") tis("Hero Greek Atalanta") tis("Hero Greek Heracles")</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Age 3 Greek Hero 2</name>
+            <displayname>Age 3 Greek Hero 2</displayname>
+            <event>alt-e</event>
+            <context>game</context>
+            <command>tis("Diomedes")</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Physician</name>
+            <displayname>Physician</displayname>
+            <event>alt-q</event>
+            <context>game</context>
+            <command>tis("Physician")</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Age 4 Greek Hero</name>
+            <displayname>$$21494$$Age 4 Greek Hero</displayname>
+            <event>r</event>
+            <context>game</context>
+            <command>tis("Hero Greek Perseus") tis("Hero Greek Bellerophon") tis("Hero Greek Polyphemus")</command>
+        </keymapdata>
+    </keymapgroup>
+    <keymapgroup name="Sahnetjar" displayname="Sahnetjar">
+        <keymapdata>
+            <name>Major God Priest</name>
+            <displayname>Major God Priest</displayname>
+            <event>w</event>
+            <context>game</context>
+            <command>tis("Priest of Ra") tis("Priestess") tis("Priest of Set")</command>
+        </keymapdata>
+    </keymapgroup>
+    <keymapgroup name="Siege Works" displayname="Siege Works Training">
+        <keymapdata>
+            <name>Unit 1</name>
+            <displayname>Unit 1</displayname>
+            <event>q</event>
+            <context>game</context>
+            <command>tis("Petrobolos") tis("Portable Ram")</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Unit 2</name>
+            <displayname>Unit 2</displayname>
+            <event>w</event>
+            <context>game</context>
+            <command>tis("Battering Ram") tis("Siege Tower") tis("Catapult_Beta")</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Unit 3</name>
+            <displayname>Unit 3</displayname>
+            <event>e</event>
+            <context>game</context>
+            <command>tis("Oxybeles") tis("Eggy Ballista") tis("Ballista")</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Unit 4</name>
+            <displayname>Unit 4</displayname>
+            <event>r</event>
+            <context>game</context>
+            <command>tis("Helepolis") tis("Catapult")</command>
+        </keymapdata>
+    </keymapgroup>
+    <keymapgroup name="Temple" displayname="Temple">
+        <keymapdata>
+            <name>Unit 1</name>
+            <displayname>Unit 1</displayname>
+            <event>q</event>
+            <context>game</context>
+            <command>tis("Pegasus") tis("Harpy Scout") tis("Priest") tis("Seer") tis("Oracle Scout") tis("Hero Chinese Monk")</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Unit 2</name>
+            <displayname>Unit 2</displayname>
+            <event>w</event>
+            <context>game</context>
+            <command>tis("Centaur") tis("Cyclops") tis("Minotaur") tis("Wadjet") tis("Sphinx") tis("Anubite") tis("Einheriar") tis("Troll") tis("Valkyrie") tis("Promethean") tis("Flying Medic") tis("Automaton") tis("Monkey King") tis("Qilin") tis("Terracotta Soldier")</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Unit 3</name>
+            <displayname>Unit 3</displayname>
+            <event>e</event>
+            <context>game</context>
+            <command>tis("Hydra") tis("Manticore") tis("Nemean Lion") tis("Scorpion Man") tis("Scarab") tis("Roc") tis("Battle Boar") tis("Frost Giant") tis("Mountain Giant") tis("Satyr") tis("Stymphalian Bird") tis("Behemoth") tis("Jiangshi") tis("Pixiu") tis("War Salamander")</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Unit 4</name>
+            <displayname>Unit 4</displayname>
+            <event>r</event>
+            <context>game</context>
+            <command>tis("Chimera") tis("Colossus") tis("Medusa") tis("Phoenix") tis("Mummy") tis("Avenger") tis("White Tiger") tis("Fire Giant") tis("Fenris Wolf") tis("Argus") tis("Lampades") tis("Heka Gigantes") tis("Vermilion Bird") tis("Azure Dragon")</command>
+        </keymapdata>
+    </keymapgroup>
+    <keymapgroup name="Egypt Divider" displayname="$$60000$$Divider"></keymapgroup>
+    <keymapgroup name="Elite Barracks" displayname="Elite Barracks Unit Training">
+        <keymapdata>
+            <name>Unit 1</name>
+            <displayname>Unit 1</displayname>
+            <event>q</event>
+            <context>game</context>
+            <command>tis("Hypaspist") tis("Khopesh")</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Unit 2</name>
+            <displayname>Unit 2</displayname>
+            <event>w</event>
+            <context>game</context>
+            <command>tis("Phalangite") tis("Armored Spearman")</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Unit 3</name>
+            <displayname>Unit 3</displayname>
+            <event>e</event>
+            <context>game</context>
+            <command>tis("Pezhetairoi") tis("Keopeshman")</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Unit 4</name>
+            <displayname>Unit 4</displayname>
+            <event>r</event>
+            <context>game</context>
+            <command>tis("Somatophylax") tis("Baskilon")</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Unit 5</name>
+            <displayname>Unit 5</displayname>
+            <event>t</event>
+            <context>game</context>
+            <command>tis("Spartiate")</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Unit 6</name>
+            <displayname>Unit 6</displayname>
+            <event>alt-q</event>
+            <context>game</context>
+            <command>tis("AoE Phalanx")</command>
+        </keymapdata>
+    </keymapgroup>
+    <keymapgroup name="Fortress" displayname="Fortress Unit Training">
+        <keymapdata>
+            <name>Unit 1</name>
+            <displayname>Unit 1</displayname>
+            <event>q</event>
+            <context>game</context>
+            <command>tis("General") tis("Pharoahs General") tis("Alpha Hero Norse")</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Unit 2</name>
+            <displayname>Unit 2</displayname>
+            <event>w</event>
+            <context>game</context>
+            <command>tis("Incenidary Pig")</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Unit 3</name>
+            <displayname>Unit 3</displayname>
+            <event>e</event>
+            <context>game</context>
+            <command>tis("Siege Catapult (Trained)")</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Unit 4</name>
+            <displayname>Unit 4</displayname>
+            <event>r</event>
+            <context>game</context>
+            <command>tis("War Elephant") tis("Hero Valkyrie") tis("Narfi") tis("Beowulf")</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Unit 5</name>
+            <displayname>Unit 5</displayname>
+            <event>t</event>
+            <context>game</context>
+            <command>tis("Theris S") tis("Rameses II") tis("Amanra Older S") tis("Viking Strider") tis("Headhunter") tis("Vogur")</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Unit 6</name>
+            <displayname>Unit 6</displayname>
+            <event>alt-q</event>
+            <context>game</context>
+            <command>tis("Desert Raider") tis("Armored Elephant") tis("Nile Cultist")</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Unit 7</name>
+            <displayname>Unit 7</displayname>
+            <event>alt-w</event>
+            <context>game</context>
+            <command>tis("Archer Elephant")</command>
+        </keymapdata>
+    </keymapgroup>
+    <keymapgroup name="Tavern" displayname="Tavern Unit Training">
+        <keymapdata>
+            <name>Unit 1</name>
+            <displayname>Unit 1</displayname>
+            <event>q</event>
+            <context>game</context>
+            <command>tis("Spy2")</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Unit 2</name>
+            <displayname>Unit 2</displayname>
+            <event>w</event>
+            <context>game</context>
+            <command>tis("Cretan Archer")</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Unit 3</name>
+            <displayname>Unit 3</displayname>
+            <event>e</event>
+            <context>game</context>
+            <command>tis("Armored Hoplite")</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Unit 4</name>
+            <displayname>Unit 4</displayname>
+            <event>r</event>
+            <context>game</context>
+            <command>tis("Sacred Band")</command>
+        </keymapdata>
+    </keymapgroup>
+    <keymapgroup name="Chinese Divider" displayname="$$60000$$Divider"></keymapgroup>
+    <keymapgroup name="Chinese Barracks" displayname="$$60140$$Chinese Barracks Unit Training">
+        <keymapdata>
+            <name>Halberdier</name>
+            <displayname>$$60102$$Halberdier</displayname>
+            <event>q</event>
+            <context>ChineseBarracksAccel</context>
+            <command>tis("Halberdier")</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Chu Ko Nu</name>
+            <displayname>$$60103$$Hoplite</displayname>
+            <event></event>
+            <context>ChineseBarracksAccel</context>
+            <command>tis("Chu Ko Nu")</command>
+        </keymapdata>
+    </keymapgroup>
+    <keymapgroup name="Chinese Stable" displayname="$$60141$$Chinese Stable Unit Training">
+        <keymapdata>
+            <name>Scout</name>
+            <displayname>$$60106$$Scout</displayname>
+            <event>q</event>
+            <context>ChineseStableAccel</context>
+            <command>tis("Scout Chinese")</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Mounted Archer</name>
+            <displayname>$$60107$$Mounted Archer</displayname>
+            <event></event>
+            <context>ChineseStableAccel</context>
+            <command>tis("Mounted Archer")</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Cataphract</name>
+            <displayname>$$60108$$Cataphract</displayname>
+            <event></event>
+            <context>ChineseStableAccel</context>
+            <command>tis("Cataphract Chinese")</command>
+        </keymapdata>
+    </keymapgroup>
+    <keymapgroup name="Chinese Castle" displayname="$$60142$$Chinese Castle Unit Training">
+        <keymapdata>
+            <name>General</name>
+            <displayname>$$60114$$General</displayname>
+            <event>q</event>
+            <context>ChineseCastleAccel</context>
+            <command>tis("Hero Chinese General")</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Fire Lance</name>
+            <displayname>$$60115$$Fire Lance</displayname>
+            <event></event>
+            <context>ChineseCastleAccel</context>
+            <command>tis("Fire Lance") tis("Fire Lance Shennong")</command>
+        </keymapdata>
+        <keymapdata>
+            <name>War Chariot</name>
+            <displayname>$$60109$$War Chariot</displayname>
+            <event></event>
+            <context>ChineseCastleAccel</context>
+            <command>tis("War Chariot")</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Sitting Tiger</name>
+            <displayname>$$60116$$Sitting Tiger</displayname>
+            <event>r</event>
+            <context>ChineseCastleAccel</context>
+            <command>tis("Sitting Tiger") tis("Sitting Tiger Shennong")</command>
+        </keymapdata>
+        <keymapdata>
+            <name>Immortal</name>
+            <displayname>$$60100$$Immortal</displayname>
+            <event>t</event>
+            <context>ChineseCastleAccel</context>
+            <command>tis("Hero Chinese Immortal")</command>
+        </keymapdata>
+    </keymapgroup>
+</defaultkeymap>
